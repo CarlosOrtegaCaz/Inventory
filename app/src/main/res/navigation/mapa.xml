@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapa"
+    app:startDestination="@id/logInActivity">
+
+    <activity
+        android:id="@+id/logInActivity"
+        android:name="com.example.myinventory.LogInActivity"
+        android:label="activity_log_in"
+        tools:layout="@layout/activity_log_in" />
+    <activity
+        android:id="@+id/menu"
+        android:name="com.example.myinventory.Menu"
+        android:label="Menu" />
+    <activity
+        android:id="@+id/registrarItem"
+        android:name="com.example.myinventory.RegistrarItem"
+        android:label="activity_registrar_item"
+        tools:layout="@layout/activity_registrar_item" />
+</navigation>
